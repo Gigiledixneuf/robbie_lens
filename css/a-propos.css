@@ -1,0 +1,92 @@
+
+.a-propos-main{
+    margin: auto;
+    padding: 50px;
+  }
+
+    /* style section fond noir */
+.fond-noir{
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    background-color: #2C2E51;
+    right:55px;
+    bottom: -100px;
+    border-right: 1px #8e86b5 solid;
+    transition: opacity 0.15s;
+  }
+.fond-noir:hover{
+  opacity: 0.5;
+}
+  /* fin section fond noir */
+
+  /* style main-apropos */
+
+  .conteneur-images-apropos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    margin-bottom: 20px;
+    border-left: 4px #4c466e solid;
+    position: relative;
+  }
+  .border-bottom{
+    border-bottom: 1px #4c466e solid;
+  }
+  .conteneur-images-apropos img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* fin section a propos */
+  .title-a-propos{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+
+  /* style section a propos */
+  .card-cotent{
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 80px;
+    transition: opacity 0.15s;
+   }
+
+  .card-cotent h2{
+    margin-top: 30px;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  .card-cotent ul{
+    margin-top: 30px;
+  }
+ 
+  /* fin style section a propos */
+/* Debut style tableau */
+table{
+    border-collapse: collapse;
+    margin: auto;
+    color: white;
+  }
+  caption{
+    font-size: 2em;
+    margin-bottom: 100px;
+  }
+  th,td{
+    border: 1px #8e86b5 solid;
+  }
+  
+  th{
+    width: 500px;
+    padding: 20px;
+  }
+  
+  td{
+    padding: 80px 10px;
+    text-align: center;
+  }
+  /* Fin style tableau */
+  
