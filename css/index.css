@@ -1,0 +1,90 @@
+
+
+/* style section acceuil index */
+ .accueil-introduction {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    align-items: flex-start;
+    margin: auto;
+  }
+  .accueil-introduction h1 {
+    margin-bottom: 15px;
+  }
+  .accueil-introduction p {
+    margin-bottom: 30px;
+  }
+  .accueil-introduction div {
+    padding-right: 80px;
+  }
+  /* Fin style */
+  em {
+    color: #a5b4fc;
+    font-style: normal;
+  }
+  /* style index section photos */
+  .accueil-photos {
+    background-color: white;
+  }
+  .accueil-photos h2 {
+    color: #242424;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .accueil-photos div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+
+  }
+  /* Fin style section photos */
+
+
+  /* formulaire style a revoir demain parce que je suis trop bussy*/ 
+  .section-contact h2 {
+    color: #a5b4fc;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .form-nom-email {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 1100px;
+  }
+  
+  .form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  input,
+  textarea {
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+  }
+  textarea{
+    width: 1070px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type='submit'] {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+}
