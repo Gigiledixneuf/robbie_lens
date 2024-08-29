@@ -74,4 +74,21 @@
   display: flex;
 }
 /* Fin style images over-affichage */
-
+/* Media queries */
+@media screen and (max-width: 996px) {
+  .portofolio h1{
+    font-size: 1em;
+  }
+  .accueil-portofolio h2{
+    font-size: 3em;
+  }
+  .grid-paysages{
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  
+  .grid-portraits{
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}

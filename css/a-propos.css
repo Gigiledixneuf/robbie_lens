@@ -89,4 +89,23 @@ table{
     text-align: center;
   }
   /* Fin style tableau */
+  @media screen and (max-width: 996px) {
   
+    .fond-noir{
+      display: none;
+    }
+  
+    .one{
+      display: none;
+    }
+    .two{
+      border-bottom: #2C2E51 5px solid;
+    }
+    caption{
+      margin-top: 80px;
+    }
+    .cta-apropos{
+      margin: auto;
+      width: 90%;
+    }
+  }
