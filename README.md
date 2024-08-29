@@ -28,7 +28,7 @@ index.html              # Page d'accueil
 **
 Barre de navigation : Permet de naviguer entre les sections Accueil, Portfolio, et À propos.
 Galerie photo : Les photos sont présentées dans une galerie, avec des options pour visualiser des images en plein écran.
-<!-- Responsive Design : Le site est conçu pour être visuellement attrayant sur divers appareils, des ordinateurs de bureau aux smartphones. -->
+Responsive Design : Le site est conçu pour être visuellement attrayant sur divers appareils, des ordinateurs de bureau aux smartphones. 
 Animations CSS : Des animations subtiles améliorent l'expérience utilisateur lors du survol des images ou de la navigation entre les sections.
 **
 ## Contribuer
